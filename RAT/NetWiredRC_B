@@ -1,0 +1,15 @@
+rule NetWiredRC_B : rat 
+{
+	meta:
+		description = "NetWiredRC.B"
+		author = "Jean-Philippe Teissier / @Jipe_"
+		date = "2013-02-01"
+		filetype = "memory"
+		version = "1.0" 
+
+	strings:
+		$mutex = "LmddnIkX"
+
+	condition: 
+		any of them
+}
