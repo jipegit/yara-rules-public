@@ -13,5 +13,5 @@ rule TerminatorRat : rat
 		$b = "<html><title>12356</title><body>"
 
 	condition:
-		any of them
+		all of them
 }
