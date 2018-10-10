@@ -1,7 +1,7 @@
 rule jRAT_conf : rat 
 {
 	meta:
-		description = "jRAT" configuration 
+		description = "jRAT configuration" 
 		author = "Jean-Philippe Teissier / @Jipe_"
 		date = "2013-10-11"
 		filetype = "memory"
